@@ -11,8 +11,8 @@ ReactDOM.render(
     <App />
   </React.StrictMode>,
   document.getElementById("root"),
-  () => {
-    console.log("Hola");
+  (props) => {
+    console.log(props);
   }
 );
 
