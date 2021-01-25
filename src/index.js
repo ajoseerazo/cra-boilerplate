@@ -8,6 +8,8 @@ const App = () => {
   return <div>Hola</div>;
 };
 
+console.log(document.getElementById("root"));
+
 ReactDOM.render(<div>Hola</div>, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
