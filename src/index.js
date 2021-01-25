@@ -9,6 +9,10 @@ const App = () => {
 };
 
 console.log(document.getElementById("root"));
+console.log("----------");
+console.log(ReactDOM.render);
+console.log("----------");
+console.log(ReactDOM);
 
 ReactDOM.render(<div>Hola</div>, document.getElementById("root"));
 
